@@ -1,4 +1,4 @@
-name: reg_qsar_gcn
+name: abc_transporter_inhibition
 channels:
   - conda-forge
   - defaults
@@ -19,12 +19,15 @@ dependencies:
   - brotli-bin=1.2.0=hfd05255_1
   - brotli-python=1.0.9=py39h99910a6_8
   - bzip2=1.0.8=h0ad9c76_9
-  - ca-certificates=2026.3.19=haa95532_0
+  - ca-certificates=2026.7.22=h4c7d964_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.18.4=h477c42c_1
+  - cattrs=25.1.1=pyhd8ed1ab_0
   - certifi=2025.10.5=py39haa95532_0
   - charset-normalizer=3.4.3=pyhd8ed1ab_0
+  - chembl_structure_pipeline=1.2.2=pyh29332c3_0
+  - chembl_webresource_client=0.10.9=pyhd8ed1ab_0
   - colorama=0.4.6=pyhd8ed1ab_1
   - comm=0.2.3=pyhe01879c_0
   - contourpy=1.3.0=py39h2b77a98_2
@@ -33,6 +36,7 @@ dependencies:
   - debugpy=1.8.16=py39h1f3cc84_0
   - decorator=5.2.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
+  - easydict=1.13=pyhff2d567_1
   - et_xmlfile=2.0.0=pyhd8ed1ab_1
   - exceptiongroup=1.3.0=pyhd8ed1ab_0
   - executing=2.2.0=pyhd8ed1ab_0
@@ -48,10 +52,12 @@ dependencies:
   - freetype=2.14.3=h57928b3_0
   - freetype-py=2.3.0=pyhd8ed1ab_0
   - fribidi=1.0.16=hfd05255_0
+  - gevent=25.5.1=py39hd134818_1
   - glib=2.86.4=h19e2e61_1
   - glib-tools=2.86.4=he647baa_1
   - graphite2=1.3.14=hac47afa_2
   - greenlet=3.2.4=py39hdb6649d_0
+  - grequests=0.7.0=pyhd8ed1ab_0
   - gst-plugins-base=1.26.10=hf40947b_0
   - gstreamer=1.26.10=h54009fa_0
   - h11=0.16.0=pyhd8ed1ab_0
@@ -69,6 +75,7 @@ dependencies:
   - ipykernel=6.30.1=pyh3521513_0
   - ipython=8.18.1=pyh7428d3b_3
   - isoduration=20.11.0=pyhd8ed1ab_1
+  - itsdangerous=2.2.0=pyhd8ed1ab_1
   - jedi=0.19.2=pyhd8ed1ab_1
   - jinja2=3.1.6=pyhd8ed1ab_0
   - joblib=1.2.0=pyhd8ed1ab_0
@@ -150,7 +157,7 @@ dependencies:
   - numpy=1.23.5=py39hbccbffa_0
   - openjpeg=2.5.4=h0e57b4f_0
   - openpyxl=3.1.5=py39ha55989b_1
-  - openssl=3.6.2=hf411b9b_0
+  - openssl=3.6.3=hf411b9b_1
   - overrides=7.7.0=pyhd8ed1ab_1
   - packaging=26.0=pyhcf101f3_0
   - pandas=1.5.3=py39h2ba5b7c_1
@@ -194,6 +201,7 @@ dependencies:
   - referencing=0.36.2=pyh29332c3_0
   - reportlab=4.4.10=pyhcf101f3_1
   - requests=2.32.5=pyhd8ed1ab_0
+  - requests-cache=1.2.1=pyhd8ed1ab_1
   - rfc3339-validator=0.1.4=pyhd8ed1ab_1
   - rfc3986-validator=0.1.1=pyh9f0ad1d_0
   - rfc3987-syntax=1.1.0=pyhe01879c_1
@@ -227,8 +235,10 @@ dependencies:
   - typing_utils=0.1.0=pyhd8ed1ab_1
   - tzdata=2025c=hc9c84f9_1
   - ucrt=10.0.26100.0=h57928b3_0
+  - ujson=5.10.0=py39ha51f57c_1
   - unicodedata2=16.0.0=py39ha55e580_0
   - uri-template=1.3.0=pyhd8ed1ab_1
+  - url-normalize=2.2.1=pyhd8ed1ab_0
   - urllib3=2.5.0=pyhd8ed1ab_0
   - vc=14.3=h41ae7f8_34
   - vc14_runtime=14.44.35208=h818238b_34
@@ -249,6 +259,8 @@ dependencies:
   - yaml=0.2.5=h6a83c73_3
   - zeromq=4.3.5=h6c54ac7_1
   - zipp=3.23.0=pyhd8ed1ab_0
+  - zope.event=5.1.1=pyhe01879c_0
+  - zope.interface=7.2=py39ha55e580_0
   - zstandard=0.23.0=py39h0802e32_3
   - zstd=1.5.7=h534d264_6
   - pip:
@@ -289,4 +301,4 @@ dependencies:
       - typeguard==4.5.1
       - werkzeug==3.1.8
       - wrapt==2.1.2
-prefix: C:\Users\seanr\anaconda3\envs\reg_qsar_gcn
+prefix: C:\Users\scarey2\.conda\envs\abc_transporter_inhibition
