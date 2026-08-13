@@ -1,4 +1,4 @@
-name: abc_inhibition
+name: reg_qsar_gcn
 channels:
   - conda-forge
   - defaults
